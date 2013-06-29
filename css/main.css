@@ -1,0 +1,194 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   body {
+
+      font-family: 'Pathway Gothic One', sans-serif;
+   }
+   h3 {
+      font-family: 'Offside', cursive;
+    font-size: 20px;
+   }
+   select {
+    font-family: 'Acme', sans-serif;
+   }
+
+   .navbar .nav>li>a {
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+   }
+
+   .nav-tabs, .nav-pills {
+      font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 1.3em;
+   }
+
+   .dropdown-menu>li>a {
+      font-family: 'Pathway Gothic One', sans-serif;
+   }
+
+   .nav-pills>li>a {
+      font-family: 'Acme', sans-serif;
+   }
+
+   blockquote p.main {
+    font-family: 'Offside', cursive;
+    font-size: 25px;
+   }
+
+   .btn.click{
+    font-family: 'Acme', sans-serif;
+   }
+
+   .navbar-inner img#logo {
+      height: 31px;
+   }
+
+    .navbar .nav {
+        margin-top: 6px;
+    }
+
+    .hero-unit {
+      padding: 60px 0 150px 0;
+      background: #eeeeee url('../img/profit_img/waves.png') center bottom repeat-x;
+    }
+
+    .darkgrey {
+      background-color: #e4d9d8;
+    }
+
+    .nav-tabs>li {
+      padding: 4px;
+    }
+
+    .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+      background-color: #e4d9d8;
+    }
+ 
+    .nav>li>a:hover, .nav>li>a:focus {
+      background-color: #AD4358;
+    }
+
+    .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+      background-color: transparent;
+      border-bottom: 4px solid #DF6;
+    }
+
+    .nav-pills.nav-stacked>li>a {
+      color: wheat;
+    }
+
+    .search-query {
+      height: 32px;
+    }
+
+    blockquote {
+      margin-left: 10%;
+      margin-bottom: 30px;
+    }
+
+    .main-content {
+      background-color: #F9F8F7;
+    }
+
+    .img-container {
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    .main-content .row {
+      margin-left: 3%;
+    }
+
+    .side-banner {
+      max-width: 90%;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      color: white;
+      background-color: rgba(8, 53, 78, 0.91);
+    }
+
+    .footer_heading {
+      margin: 0;
+      padding: 0px 0px 5px 0px;
+      font-size: 18px;
+      color: #f7841b;
+      font-weight: bold;
+    }
+
+    .nav-pills>li>a {
+      border-radius: 0;
+      webkit-border-radius: 0;
+    }
+
+
+    footer.container-fluid .span9 {
+      border-right: 1px dotted tomato;
+    }
+
+    .social a {
+      margin-right: 10px;
+    }
+
+@media (max-width: 979px) {
+  .btn.click {
+    display: none;
+  }
+  .span3 .side-banner {
+    display: none;
+  }
+  .span3 iframe {
+    display: none;
+  }
+  .span9.width-tab {
+    width: 100%;
+  }
+  input.search-query {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-unit .container {
+    width: 90%;
+  }
+  .span2.width-tab {
+    width: 20%;
+    min-width: 130px;
+    float: left;
+    margin-bottom: 10px
+  }
+  .span3.width-phone {
+    width: 50%;
+    float: left;
+  }
+  .nav.nav-pills.width-mobile {
+    width: 100%;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+  footer div.span3 {
+    width: 50%;
+    float: right;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
